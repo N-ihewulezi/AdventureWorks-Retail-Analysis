@@ -37,6 +37,12 @@ Day Type = IF(WEEKDAY(Sales[OrderDate], 2) > 5, "Weekend", "Weekday")
 -- Customer Segmentation Share
 % of Total Profit = DIVIDE([Total Profit], CALCULATE([Total Profit], ALL(ProductCategory)))
 
+Dashboard Preview:
+
+<img width="3757" height="1872" alt="image" src="https://github.com/user-attachments/assets/1eaea1dc-b9a3-43b3-8530-dcf5917d73fc" />
+
+<img width="3717" height="1787" alt="image" src="https://github.com/user-attachments/assets/25d08d32-efc9-45b2-9be7-a111ec75949c" />
+
 6. Repository Structure
 📂 01_SQL_Scripts: SQL code for data cleaning and OrderQuantity updates.
 📂 02_Data_Model_&_Dashboards: The final Excel Workbook file dashboard screenshots.
@@ -45,5 +51,5 @@ Day Type = IF(WEEKDAY(Sales[OrderDate], 2) > 5, "Weekend", "Weekday")
 About the Author 
 Nkechi Ihewulezi 
 Data Analyst | Microsoft Certified: Power BI Data Analyst Associate
-I am looking for an internship or entry-level role to apply my technical skills to real-world business challenges.
+
 🔗 Connect with me on LinkedIn:https://www.linkedin.com/in/nkechi-ihewulezi/
